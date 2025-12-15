@@ -67,9 +67,9 @@ const App: React.FC = () => {
             <div className="bg-orange-50 p-6 rounded-xl border border-orange-200 mt-6">
                 <h3 className="text-orange-800 font-bold mb-2">Settlement Note (结算说明)</h3>
                 <p className="text-orange-700 text-sm">
-                    Settlements involve a strict calculation waterfall: User Pay -> Channel Fee -> Theater Share -> Distributor Share -> Team Share -> Individual.
+                    Settlements involve a strict calculation waterfall: User Pay &rarr; Channel Fee &rarr; Theater Share &rarr; Distributor Share &rarr; Team Share &rarr; Individual.
                     <br/>
-                    (分佣流程：观众支付 -> 扣除通道费 -> 剧场分成 -> 分销商金额 -> 团队分成 -> 个人/团长。详见 <strong>佣金计算</strong> 页面)
+                    (分佣流程：观众支付 &rarr; 扣除通道费 &rarr; 剧场分成 &rarr; 分销商金额 &rarr; 团队分成 &rarr; 个人/团长。详见 <strong>佣金计算</strong> 页面)
                 </p>
             </div>
           </div>
