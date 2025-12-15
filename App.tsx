@@ -5,6 +5,7 @@ import { PromotionFlow, OrderFlow } from './components/FlowDiagram';
 import { CommissionCalculator } from './components/CommissionCalculator';
 import { ReportingSection } from './components/ReportingSection';
 import { TheaterAccess } from './components/TheaterAccess';
+import { BusinessPanorama } from './components/BusinessPanorama';
 import { LayoutDashboard, Menu, X } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -54,6 +55,16 @@ const App: React.FC = () => {
                     <p className="text-slate-500 text-sm">Automated commission splitting between theaters, platform, distributors, and users. (达人、分销商、平台之间分佣)</p>
                 </div>
              </div>
+          </div>
+        );
+      case 'panorama':
+        return (
+          <div className="animate-fade-in">
+             <div className="mb-6">
+                <h2 className="text-2xl font-bold text-slate-800">Business Panorama (业务全景)</h2>
+                <p className="text-slate-500">Holistic view of upstream content, platform capabilities, and downstream distribution. (连接上游内容、平台能力与下游分销的全景视图)</p>
+             </div>
+             <BusinessPanorama />
           </div>
         );
       case 'flows':

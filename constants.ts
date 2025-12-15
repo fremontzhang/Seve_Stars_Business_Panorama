@@ -1,10 +1,11 @@
-import { Users, PlayCircle, Wallet, FileText, CheckCircle, AlertTriangle, ArrowRight, Network } from 'lucide-react';
+import { Users, PlayCircle, Wallet, FileText, CheckCircle, AlertTriangle, ArrowRight, Network, Map } from 'lucide-react';
 
 // Navigation Items
 export const NAV_ITEMS = [
   { id: 'intro', label: 'Overview (概览)', icon: FileText },
+  { id: 'panorama', label: 'Business Panorama (业务全景)', icon: Map },
   { id: 'flows', label: 'Process Flows (流程梳理)', icon: ArrowRight },
-  { id: 'access', label: 'Theater Access (剧场接入)', icon: Network }, // New Item
+  { id: 'access', label: 'Theater Access (剧场接入)', icon: Network }, 
   { id: 'calculator', label: 'Commission Calculator (佣金计算)', icon: Wallet },
   { id: 'onboarding', label: 'Reporting & Onboarding (报备与接入)', icon: CheckCircle },
 ];
