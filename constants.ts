@@ -1,4 +1,4 @@
-import { Users, PlayCircle, Wallet, FileText, CheckCircle, AlertTriangle, ArrowRight, Network, Map } from 'lucide-react';
+import { Users, PlayCircle, Wallet, FileText, CheckCircle, ArrowRight, Network, Map } from 'lucide-react';
 
 // Navigation Items
 export const NAV_ITEMS = [

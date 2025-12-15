@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calculator, RefreshCw, ChevronRight } from 'lucide-react';
+import { Calculator, ChevronRight } from 'lucide-react';
 
 interface CalculationState {
   paymentAmountCents: number;

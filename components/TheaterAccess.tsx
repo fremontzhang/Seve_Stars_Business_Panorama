@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ACCESS_DICTIONARY, THEATER_DRAMA_LIST, THEATER_NOVEL_LIST, PENDING_ACCESS, DRAMA_LIST_RESOURCES } from '../constants';
-import { Database, AlertCircle, CheckCircle2, PauseCircle, Download, XCircle, Search, ExternalLink, BookOpen, Video } from 'lucide-react';
+import { Database, AlertCircle, CheckCircle2, PauseCircle, Download, XCircle, ExternalLink, BookOpen, Video } from 'lucide-react';
 
 export const TheaterAccess: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'overview' | 'dramas' | 'novels' | 'resources'>('overview');
