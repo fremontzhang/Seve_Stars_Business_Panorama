@@ -53,7 +53,8 @@ export const CommissionCalculator: React.FC = () => {
   const [results, setResults] = useState<any>({});
 
   // Helper for truncation logic from PDF: "Intercept two decimal places" (floor)
-  const truncate = (num: number) => Math.floor(num * 100) / 100;
+  // Fix: floating point precision issues (e.g., 14 * 0.7 = 9.7999...) handled by toFixed(10) before floor
+  const truncate = (num: number) => Math.floor(Number(num.toFixed(10)) * 100) / 100;
 
   // Switch handler
   const switchScenario = (type: OrderType) => {
